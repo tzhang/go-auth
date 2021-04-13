@@ -6,7 +6,8 @@ import (
 )
 
 func Connect() {
-	_, err := gorm.Open(mysql.Open("root:13572468@tcp(tidb.142c4f0b.38bdef7b.us-west-2.prod.aws.tidbcloud.com:4000)/test"), &gorm.Config{})
+	//_, err := gorm.Open(mysql.Open("root:13572468@tcp(tidb.d8334a59.38bdef7b.us-west1.prod.gcp.tidbcloud.com:4000)/test"), &gorm.Config{})
+	_, err := gorm.Open(mysql.Open("root:n1cetest@/go-dev"), &gorm.Config{})
 
 	if err != nil {
 		panic("cannot connect database")

@@ -1,4 +1,5 @@
-module github.com/tzhang/go-auth.git
+//module github.com/tzhang/go-auth.git
+module github.com/tzhang/go-auth
 
 go 1.16
 
