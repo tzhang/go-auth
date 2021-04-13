@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/tzhang/go_auth/database"
-	"github.com/tzhang/go_auth/routes"
+	"github.com/tzhang/go-auth/database"
+	"github.com/tzhang/go-auth/routes"
 )
 
 func main() {
